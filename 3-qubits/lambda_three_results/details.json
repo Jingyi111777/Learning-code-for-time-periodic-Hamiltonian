@@ -1,0 +1,433 @@
+{
+  "target": "IXX",
+  "lambdas": [
+    0.6,
+    0.2,
+    0.05
+  ],
+  "repeats": 30,
+  "shots": null,
+  "seed": 42,
+  "preliminary": {
+    "B_hat": 0.36,
+    "C_hat": 0.039999723993567604,
+    "B_plus_C_hat": 0.3999997239935676,
+    "epsilon_S": 2.8125075000000003e-06,
+    "epsilon_B": 0.0007957747154634557,
+    "epsilon_C": 0.0007985872229634557,
+    "omega_min": 1.0,
+    "omega_max": 1.5,
+    "B_max": 0.8,
+    "C_max": 0.1,
+    "phase_error_bound": 1e-12,
+    "failure_probability": 0.0,
+    "guarantee": "conditional_on_priors_and_quadrature_bias",
+    "backend": "ideal_isolated_or_user_measurement_callback",
+    "max_interrogation_time": 125.66370614359172,
+    "experiment_count": null,
+    "total_sensing_time": null,
+    "history": [
+      {
+        "t": 0.9817477042468103,
+        "phi": 0.7684503158917891,
+        "branch": 0,
+        "B_hat": 0.39136853214306144,
+        "measurement": {
+          "R": 0.7189885968570775,
+          "S": 0.695021868425369,
+          "counts_plus": null,
+          "reference": "IZI"
+        }
+      },
+      {
+        "t": 1.9634954084936207,
+        "phi": 1.4608571461945101,
+        "branch": 0,
+        "B_hat": 0.37200421754876145,
+        "measurement": {
+          "R": 0.10971784882105728,
+          "S": 0.9939627727687188,
+          "counts_plus": null,
+          "reference": "IZI"
+        }
+      },
+      {
+        "t": 3.9269908169872414,
+        "phi": 2.760766721564147,
+        "branch": 0,
+        "B_hat": 0.35151173636843225,
+        "measurement": {
+          "R": -0.9283579637660461,
+          "S": 0.3716873566751509,
+          "counts_plus": null,
+          "reference": "IZI"
+        }
+      },
+      {
+        "t": 7.853981633974483,
+        "phi": -0.6283185307179588,
+        "branch": 1,
+        "B_hat": 0.36,
+        "measurement": {
+          "R": 0.8090169943749472,
+          "S": -0.5877852522924732,
+          "counts_plus": null,
+          "reference": "IZI"
+        }
+      },
+      {
+        "t": 15.707963267948966,
+        "phi": -1.2566370614359177,
+        "branch": 2,
+        "B_hat": 0.36,
+        "measurement": {
+          "R": 0.30901699437494706,
+          "S": -0.9510565162951539,
+          "counts_plus": null,
+          "reference": "IZI"
+        }
+      },
+      {
+        "t": 31.41592653589793,
+        "phi": -2.5132741228718354,
+        "branch": 4,
+        "B_hat": 0.36,
+        "measurement": {
+          "R": -0.809016994374948,
+          "S": -0.5877852522924725,
+          "counts_plus": null,
+          "reference": "IZI"
+        }
+      },
+      {
+        "t": 62.83185307179586,
+        "phi": 1.2566370614359157,
+        "branch": 7,
+        "B_hat": 0.36,
+        "measurement": {
+          "R": 0.309016994374949,
+          "S": 0.9510565162951531,
+          "counts_plus": null,
+          "reference": "IZI"
+        }
+      },
+      {
+        "t": 125.66370614359172,
+        "phi": 2.513274122871831,
+        "branch": 14,
+        "B_hat": 0.36,
+        "measurement": {
+          "R": -0.8090169943749452,
+          "S": 0.587785252292476,
+          "counts_plus": null,
+          "reference": "IZI"
+        }
+      }
+    ],
+    "short_measurements": [
+      {
+        "R": 0.9968032393769154,
+        "S": 0.07989556913676739,
+        "counts_plus": null,
+        "reference": "IZI"
+      },
+      {
+        "R": 0.9872516726924531,
+        "S": 0.15916700275482207,
+        "counts_plus": null,
+        "reference": "IZI"
+      }
+    ],
+    "target_label": "IXX",
+    "reshaping_group": [
+      "III",
+      "YII"
+    ],
+    "reshaping_generators": [
+      "YII"
+    ],
+    "ramsey_times": [
+      0.9817477042468103,
+      1.9634954084936207,
+      3.9269908169872414,
+      7.853981633974483,
+      15.707963267948966,
+      31.41592653589793,
+      62.83185307179586,
+      125.66370614359172
+    ],
+    "estimation_method": "Richardson S plus doubled-time Ramsey B"
+  },
+  "designs": [
+    {
+      "lambda_value": 0.6,
+      "status": "ready",
+      "design": {
+        "B_hat": 0.36,
+        "C_hat": 0.039999723993567604,
+        "epsilon_B": 0.0007957747154634557,
+        "epsilon_C": 0.0007985872229634557,
+        "C_minus": 0.03920113677060415,
+        "C_plus": 0.04079831121653106,
+        "scale": 0.6,
+        "T_total": 100.79670075790514,
+        "correction_bound": 0.01979687517308023,
+        "alpha_min": 1.5093027090910314,
+        "alpha_max": 1.5707963267948966,
+        "a_max": 1.5905932019679767,
+        "a_out": 0.47495801036472607,
+        "a_in": 1.3204145299924137,
+        "r_in": 0.7508509106525126,
+        "r_out": 2.4280380138520523,
+        "omega_min": 1.0,
+        "omega_max": 1.5,
+        "number_of_bins": 64,
+        "filter_epsilon": 7.8125e-05,
+        "failure_probability": 0.01
+      },
+      "qsp_phases": [
+        0.17423145483159364,
+        -0.6533547667287434,
+        0.39058881889310837,
+        0.21897346532501522,
+        -1.2415087208309794,
+        0.2454633878847093,
+        -0.19815711647817436,
+        0.7665686032157493,
+        0.726285686230365,
+        -0.48838004223998777,
+        -1.3231125171574654,
+        -0.594446986493772,
+        0.5364699010836571,
+        -1.00503802394785,
+        0.1487924211507832,
+        -0.620127221287404,
+        0.0010403795733330615,
+        -0.22582443450849654
+      ],
+      "qsp_degree": 17,
+      "filter_certificate": {
+        "continuous_error_bound": 8.948800165092124e-07,
+        "filter_epsilon": 7.8125e-05,
+        "passed": true,
+        "certificate_scope": "Lipschitz grid certificate in floating-point arithmetic"
+      }
+    },
+    {
+      "lambda_value": 0.2,
+      "status": "ready",
+      "design": {
+        "B_hat": 0.36,
+        "C_hat": 0.039999723993567604,
+        "epsilon_B": 0.0007957747154634557,
+        "epsilon_C": 0.0007985872229634557,
+        "C_minus": 0.03920113677060415,
+        "C_plus": 0.04079831121653106,
+        "scale": 0.2,
+        "T_total": 302.3901022737154,
+        "correction_bound": 0.006598958391026744,
+        "alpha_min": 1.5093027090910314,
+        "alpha_max": 1.5707963267948966,
+        "a_max": 1.5773952851859232,
+        "a_out": 0.46439967693908324,
+        "a_in": 1.329653071739851,
+        "r_in": 0.7599123961648204,
+        "r_out": 2.4240147087789974,
+        "omega_min": 1.0,
+        "omega_max": 1.5,
+        "number_of_bins": 128,
+        "filter_epsilon": 3.90625e-05,
+        "failure_probability": 0.01
+      },
+      "qsp_phases": [
+        0.2598673040596446,
+        -0.7773309959298988,
+        0.6704357229217249,
+        -0.32770176222258596,
+        -0.48317141307528516,
+        -0.7772635632283168,
+        1.0444491758095877,
+        0.49604374849278376,
+        1.0956228743107783,
+        0.32803139831038963,
+        -1.0970171803785516,
+        -0.001808061091958059,
+        -0.9274276247598159,
+        -0.19924159616605983,
+        -0.9941135723265212,
+        -0.8344613807920905,
+        -0.3540212843599294,
+        -0.2624401475179935
+      ],
+      "qsp_degree": 17,
+      "filter_certificate": {
+        "continuous_error_bound": 4.739268213696085e-07,
+        "filter_epsilon": 3.90625e-05,
+        "passed": true,
+        "certificate_scope": "Lipschitz grid certificate in floating-point arithmetic"
+      }
+    },
+    {
+      "lambda_value": 0.05,
+      "status": "ready",
+      "design": {
+        "B_hat": 0.36,
+        "C_hat": 0.039999723993567604,
+        "epsilon_B": 0.0007957747154634557,
+        "epsilon_C": 0.0007985872229634557,
+        "C_minus": 0.03920113677060415,
+        "C_plus": 0.04079831121653106,
+        "scale": 0.05,
+        "T_total": 1209.5604090948616,
+        "correction_bound": 0.001649739597756686,
+        "alpha_min": 1.5093027090910314,
+        "alpha_max": 1.5707963267948966,
+        "a_max": 1.5724460663926532,
+        "a_out": 0.4604403019044672,
+        "a_in": 1.3331175248951401,
+        "r_in": 0.7632867126864188,
+        "r_out": 2.4225066161037603,
+        "omega_min": 1.0,
+        "omega_max": 1.5,
+        "number_of_bins": 512,
+        "filter_epsilon": 9.765625e-06,
+        "failure_probability": 0.01
+      },
+      "qsp_phases": [
+        0.20246142816155868,
+        -0.727401954095938,
+        0.739018444332864,
+        -0.33783773322991806,
+        -0.34900517051892244,
+        -0.6133530204205091,
+        1.142217727533683,
+        0.4672840177432551,
+        0.9967226736452474,
+        0.3080022303651005,
+        -1.1788686439811564,
+        -0.20415943243071408,
+        -0.9414179939858138,
+        -0.029636089220999466,
+        -0.9074115884291761,
+        -0.9046142928967539,
+        -0.48909734384247994,
+        -0.31446199723072604
+      ],
+      "qsp_degree": 17,
+      "filter_certificate": {
+        "continuous_error_bound": 2.091213505415838e-07,
+        "filter_epsilon": 9.765625e-06,
+        "passed": true,
+        "certificate_scope": "Lipschitz grid certificate in floating-point arithmetic"
+      }
+    }
+  ],
+  "summary": [
+    {
+      "lambda": 0.6,
+      "status": "ok",
+      "successful_trials": 30,
+      "failed_trials": 0,
+      "skipped_trials": 0,
+      "T_ESU": 100.79670075790514,
+      "K": 64,
+      "correction_bound": 0.01979687517308023,
+      "qsp_degree": 17,
+      "qsp_error_bound": 8.948800165092124e-07,
+      "omega_error_mean": 0.008124999999999983,
+      "omega_error_median": 0.0078125,
+      "omega_error_p10": 0.0007812499999999556,
+      "omega_error_p90": 0.016406249999999956,
+      "omega_bound_mean": 0.02408846713826226,
+      "omega_coverage_fraction": 1.0,
+      "B_error_mean": 1.246549050284984e-05,
+      "B_error_median": 1.0634130163500455e-05,
+      "B_error_p10": 3.3249455939632355e-06,
+      "B_error_p90": 2.3363209006643793e-05,
+      "B_bound_mean": 1.9347082206311317e-05,
+      "B_coverage_fraction": 1.0,
+      "C_error_mean": 0.00012889051564553625,
+      "C_error_median": 0.00014636513156399827,
+      "C_error_p10": 1.4759723298771177e-05,
+      "C_error_p90": 0.00021082771544222103,
+      "C_bound_mean": 0.0006201830025987561,
+      "C_coverage_fraction": 1.0,
+      "ESU_queries_mean": 102.56666666666666,
+      "frequency_sensing_time_mean": 10338.381607735802
+    },
+    {
+      "lambda": 0.2,
+      "status": "ok",
+      "successful_trials": 30,
+      "failed_trials": 0,
+      "skipped_trials": 0,
+      "T_ESU": 302.3901022737154,
+      "K": 128,
+      "correction_bound": 0.006598958391026744,
+      "qsp_degree": 17,
+      "qsp_error_bound": 4.739268213696085e-07,
+      "omega_error_mean": 0.0022916666666666845,
+      "omega_error_median": 0.0011718750000000444,
+      "omega_error_p10": 0.0011718750000000444,
+      "omega_error_p90": 0.005078125000000044,
+      "omega_bound_mean": 0.008016184030338547,
+      "omega_coverage_fraction": 1.0,
+      "B_error_mean": 2.2523148913008068e-05,
+      "B_error_median": 3.04026121365486e-05,
+      "B_error_p10": 6.838240487194724e-07,
+      "B_error_p90": 3.04026121365486e-05,
+      "B_bound_mean": 2.5646160422785707e-05,
+      "B_coverage_fraction": 1.0,
+      "C_error_mean": 4.40691099616683e-05,
+      "C_error_median": 2.2531427000573034e-05,
+      "C_error_p10": 2.2531427000573034e-05,
+      "C_error_p90": 0.00010098794683071483,
+      "C_bound_mean": 0.00017427719682092148,
+      "C_coverage_fraction": 1.0,
+      "ESU_queries_mean": 258.4,
+      "frequency_sensing_time_mean": 78137.60242752807
+    },
+    {
+      "lambda": 0.05,
+      "status": "ok",
+      "successful_trials": 30,
+      "failed_trials": 0,
+      "skipped_trials": 0,
+      "T_ESU": 1209.5604090948616,
+      "K": 512,
+      "correction_bound": 0.001649739597756686,
+      "qsp_degree": 17,
+      "qsp_error_bound": 2.091213505415838e-07,
+      "omega_error_mean": 0.0008138020833333185,
+      "omega_error_median": 0.0006835937500000444,
+      "omega_error_p10": 0.0002929687499999556,
+      "omega_error_p90": 0.0012695312499999556,
+      "omega_bound_mean": 0.0020027991970376835,
+      "omega_coverage_fraction": 1.0,
+      "B_error_mean": 2.1777149827924744e-05,
+      "B_error_median": 2.0982937292468584e-05,
+      "B_error_p10": 9.620572296809016e-06,
+      "B_error_p90": 3.140301944637436e-05,
+      "B_bound_mean": 3.3354414941065096e-05,
+      "B_coverage_fraction": 1.0,
+      "C_error_mean": 1.541754824271648e-05,
+      "C_error_median": 1.3086375411718032e-05,
+      "C_error_p10": 5.559466413278258e-06,
+      "C_error_p90": 2.3877847878280012e-05,
+      "C_bound_mean": 4.005153415961351e-05,
+      "C_coverage_fraction": 1.0,
+      "ESU_queries_mean": 599.5333333333333,
+      "frequency_sensing_time_mean": 725171.7839326727
+    }
+  ],
+  "fixed_refinement_settings": {
+    "max_B_time": 1024.0,
+    "max_C_time": 256.0,
+    "target_B_error": 1e-06,
+    "target_C_error": 1e-06
+  },
+  "per_run_search_failure_probability": 0.01,
+  "all_searches_union_failure_bound": 0.9,
+  "note": "Shared preliminary uncertainty is not independent across trials. Means/quantiles use successful trials only; failures are counted separately. Individual-run bounds are not simultaneous confidence intervals for all rows.",
+  "assumptions": "Ideal reshaping/attenuation/coherent ESU; floating-point QSP certificate. None shots is infinite-shot expectation."
+}
