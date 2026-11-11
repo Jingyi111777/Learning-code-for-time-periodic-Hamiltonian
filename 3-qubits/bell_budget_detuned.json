@@ -1,0 +1,64 @@
+{
+  "model": {
+    "frequency_case": "detuned",
+    "terms": [
+      {
+        "label": "XII",
+        "B": 0.72,
+        "C": 0.08,
+        "omega": 1.037
+      },
+      {
+        "label": "IXX",
+        "B": 0.36,
+        "C": 0.04,
+        "omega": 1.217
+      },
+      {
+        "label": "ZXY",
+        "B": 0.145,
+        "C": 0.015,
+        "omega": 1.463
+      }
+    ]
+  },
+  "seed": 1234,
+  "budgets": [
+    {
+      "windows": 35,
+      "shots_per_window": 200000000,
+      "total_bell_samples": 7000000000,
+      "required_windows": 35,
+      "required_shots_per_window": 74752916203862,
+      "theorem_sample_budget_met": false,
+      "trials": 500,
+      "failures": 1,
+      "trials_with_missed_terms": 1,
+      "trials_with_false_positives": 0,
+      "failure_rate": 0.002,
+      "failure_rate_ci95": [
+        5.0634334007487e-05,
+        0.011092476899002649
+      ]
+    },
+    {
+      "windows": 35,
+      "shots_per_window": 74752916203862,
+      "total_bell_samples": 2616352067135170,
+      "required_windows": 35,
+      "required_shots_per_window": 74752916203862,
+      "theorem_sample_budget_met": true,
+      "trials": 500,
+      "failures": 0,
+      "trials_with_missed_terms": 0,
+      "trials_with_false_positives": 0,
+      "failure_rate": 0.0,
+      "failure_rate_ci95": [
+        0.0,
+        0.007350610051907785
+      ]
+    }
+  ],
+  "numpy_version": "2.3.5",
+  "scipy_version": "1.17.0"
+}
