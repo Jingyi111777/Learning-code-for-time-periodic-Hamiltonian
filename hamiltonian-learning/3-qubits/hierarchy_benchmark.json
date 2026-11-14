@@ -1,0 +1,981 @@
+{
+  "mode": "hierarchical",
+  "frequency_case": "detuned",
+  "thresholds": [
+    0.6,
+    0.3,
+    0.1
+  ],
+  "ramsey_shots_per_quadrature": null,
+  "trials": 50,
+  "first_seed": 2000,
+  "shots_per_window": 10000000000,
+  "completed": 50,
+  "exact_support_recoveries": 50,
+  "trials_with_false_positives": 0,
+  "trials_with_missed_terms": 0,
+  "records": [
+    {
+      "seed": 2000,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 476
+    },
+    {
+      "seed": 2001,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 621
+    },
+    {
+      "seed": 2002,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 438
+    },
+    {
+      "seed": 2003,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 557
+    },
+    {
+      "seed": 2004,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 570
+    },
+    {
+      "seed": 2005,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 1152
+    },
+    {
+      "seed": 2006,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 415
+    },
+    {
+      "seed": 2007,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 597
+    },
+    {
+      "seed": 2008,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 796
+    },
+    {
+      "seed": 2009,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 964
+    },
+    {
+      "seed": 2010,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 579
+    },
+    {
+      "seed": 2011,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 683
+    },
+    {
+      "seed": 2012,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 790
+    },
+    {
+      "seed": 2013,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 793
+    },
+    {
+      "seed": 2014,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 779
+    },
+    {
+      "seed": 2015,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 576
+    },
+    {
+      "seed": 2016,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 874
+    },
+    {
+      "seed": 2017,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 687
+    },
+    {
+      "seed": 2018,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 513
+    },
+    {
+      "seed": 2019,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 854
+    },
+    {
+      "seed": 2020,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 506
+    },
+    {
+      "seed": 2021,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 648
+    },
+    {
+      "seed": 2022,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 458
+    },
+    {
+      "seed": 2023,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 452
+    },
+    {
+      "seed": 2024,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 953
+    },
+    {
+      "seed": 2025,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 616
+    },
+    {
+      "seed": 2026,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 677
+    },
+    {
+      "seed": 2027,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 627
+    },
+    {
+      "seed": 2028,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 502
+    },
+    {
+      "seed": 2029,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 392
+    },
+    {
+      "seed": 2030,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 543
+    },
+    {
+      "seed": 2031,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 694
+    },
+    {
+      "seed": 2032,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 747
+    },
+    {
+      "seed": 2033,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 780
+    },
+    {
+      "seed": 2034,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 351
+    },
+    {
+      "seed": 2035,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 326
+    },
+    {
+      "seed": 2036,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 363
+    },
+    {
+      "seed": 2037,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 767
+    },
+    {
+      "seed": 2038,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 460
+    },
+    {
+      "seed": 2039,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 478
+    },
+    {
+      "seed": 2040,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 420
+    },
+    {
+      "seed": 2041,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 635
+    },
+    {
+      "seed": 2042,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 1115
+    },
+    {
+      "seed": 2043,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 583
+    },
+    {
+      "seed": 2044,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 459
+    },
+    {
+      "seed": 2045,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 880
+    },
+    {
+      "seed": 2046,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 520
+    },
+    {
+      "seed": 2047,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 567
+    },
+    {
+      "seed": 2048,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 600
+    },
+    {
+      "seed": 2049,
+      "status": "completed",
+      "false_positives": [],
+      "missed_terms": [],
+      "additions": [
+        [
+          "XII"
+        ],
+        [
+          "IXX"
+        ],
+        [
+          "ZXY"
+        ]
+      ],
+      "bell_samples": 2100000000000,
+      "esu_queries": 791
+    }
+  ],
+  "run_metadata": {
+    "code_version": "2026.11.12-f10.1",
+    "python_version": "3.12.14",
+    "numpy_version": "2.3.5",
+    "scipy_version": "1.17.0",
+    "system": "Linux",
+    "machine": "x86_64",
+    "thread_environment": {
+      "OPENBLAS_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1"
+    }
+  }
+}

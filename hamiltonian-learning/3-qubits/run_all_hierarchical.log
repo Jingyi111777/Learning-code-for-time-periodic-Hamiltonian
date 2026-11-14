@@ -1,0 +1,55 @@
+
+XII: T=97.887357, scale=0.309621, K=64, (r_in,r_out,a_in,a_out)=(0.753336,2.423424,1.346348,0.478188)
+  QSP degree= 9, attempt=1, grid error=7.544e-05
+
+IXX: T=99.793558, scale=0.609330, K=64, (r_in,r_out,a_in,a_out)=(0.750681,2.428151,1.319988,0.475087)
+  QSP degree= 9, attempt=1, grid error=2.123e-03
+  QSP degree= 9, attempt=2, grid error=1.619e-04
+  QSP degree=17, attempt=1, grid error=1.588e-07
+
+XII: T=97.887357, scale=0.309621, K=64, (r_in,r_out,a_in,a_out)=(0.753336,2.423424,1.346348,0.478188)
+  QSP degree= 9, attempt=1, grid error=7.544e-05
+
+IXX: T=99.793558, scale=0.609330, K=64, (r_in,r_out,a_in,a_out)=(0.750681,2.428151,1.319988,0.475087)
+  QSP degree= 9, attempt=1, grid error=2.123e-03
+  QSP degree= 9, attempt=2, grid error=1.619e-04
+  QSP degree=17, attempt=1, grid error=1.588e-07
+
+XII: T=97.887357, scale=0.309621, K=64, (r_in,r_out,a_in,a_out)=(0.753336,2.423424,1.346348,0.478188)
+  QSP degree= 9, attempt=1, grid error=7.544e-05
+
+ZXY: T=156.990019, scale=1.000000, K=64, (r_in,r_out,a_in,a_out)=(0.746335,2.441087,1.241424,0.460091)
+  QSP degree= 9, attempt=1, grid error=8.343e-04
+  QSP degree= 9, attempt=2, grid error=8.343e-04
+  QSP degree=17, attempt=1, grid error=9.241e-06
+
+Frequency case: detuned {'XII': 1.037, 'IXX': 1.217, 'ZXY': 1.463}
+
+Learned support: ['IXX', 'XII', 'ZXY']
+Round 1, a_j=0.6: confirmed=['IXX', 'XII', 'ZXY'], added=['XII'], compensated=[], compensation error bound=0, Bell samples=350000000000+350000000000, ESU queries=45
+Round 2, a_j=0.3: confirmed=['IXX', 'ZXY'], added=['IXX'], compensated=['XII'], compensation error bound=0.0134361, Bell samples=350000000000+350000000000, ESU queries=183
+Round 3, a_j=0.1: confirmed=['ZXY'], added=['ZXY'], compensated=['IXX', 'XII'], compensation error bound=0.0197624, Bell samples=350000000000+350000000000, ESU queries=716
+Total ESU queries across rounds: 944
+Total Bell shots: 2100000000000
+B preliminary Ramsey times: [0.9817477042468103, 1.9634954084936207, 3.9269908169872414, 7.853981633974483, 15.707963267948966, 31.41592653589793, 62.83185307179586, 125.66370614359172]
+IXX B = 0.3602208364222419 +/- 0.0007957747154634557 C = 0.03977887160973609 +/- 0.0007985872229634557 reshaping = ('III', 'IIX', 'IXI', 'IXX', 'IYY', 'IYZ', 'IZY', 'IZZ', 'XII', 'XIX', 'XXI', 'XXX', 'XYY', 'XYZ', 'XZY', 'XZZ', 'YII', 'YIX', 'YXI', 'YXX', 'YYY', 'YYZ', 'YZY', 'YZZ', 'ZII', 'ZIX', 'ZXI', 'ZXX', 'ZYY', 'ZYZ', 'ZZY', 'ZZZ')
+XII B = 0.7193873061247167 +/- 0.0007957747154634557 C = 0.08061238589155895 +/- 0.0007985872229634557 reshaping = ('III', 'IIX', 'IIY', 'IIZ', 'IXI', 'IXX', 'IXY', 'IXZ', 'IYI', 'IYX', 'IYY', 'IYZ', 'IZI', 'IZX', 'IZY', 'IZZ', 'XII', 'XIX', 'XIY', 'XIZ', 'XXI', 'XXX', 'XXY', 'XXZ', 'XYI', 'XYX', 'XYY', 'XYZ', 'XZI', 'XZX', 'XZY', 'XZZ')
+ZXY B = 0.1450814290262306 +/- 0.0007957747154634557 C = 0.014918342497724002 +/- 0.0007985872229634557 reshaping = ('III', 'IIY', 'IXI', 'IXY', 'IYX', 'IYZ', 'IZX', 'IZZ', 'XIX', 'XIZ', 'XXX', 'XXZ', 'XYI', 'XYY', 'XZI', 'XZY', 'YIX', 'YIZ', 'YXX', 'YXZ', 'YYI', 'YYY', 'YZI', 'YZY', 'ZII', 'ZIY', 'ZXI', 'ZXY', 'ZYX', 'ZYZ', 'ZZX', 'ZZZ')
+Pauli   omega_hat       error_bound      lambda       T_ESU       QSP_degree
+IXX     1.214843750   2.433174e-02    0.609330    99.793558       17
+  Frequency design (IXX): r_in=0.750681441104256, r_out=2.428150986316354, T_omega=99.79355800569327, K=64, qsp_degree=17, epsilon_corr=0.02, epsilon_omega=0.02433174079410844
+  filter certificate: True input intervals: True ESU promises: True
+XII     1.050781250   2.475728e-02    0.309621    97.887357        9
+  Frequency design (XII): r_in=0.7533359671471322, r_out=2.423424344335559, T_omega=97.88735680769949, K=64, qsp_degree=9, epsilon_corr=0.02, epsilon_omega=0.024757276356908848
+  filter certificate: True input intervals: True ESU promises: True
+ZXY     1.464843750   1.554932e-02    1.000000   156.990019       17
+  Frequency design (ZXY): r_in=0.7463353959246458, r_out=2.4410873016019767, T_omega=156.9900193054, K=64, qsp_degree=17, epsilon_corr=0.01347919893690787, epsilon_omega=0.015549315252030231
+  filter certificate: True input intervals: True ESU promises: True
+Pauli        B_ref           B_bound           C_ref           C_bound
+IXX      0.3600491388    5.148511e-05     0.0399925018    5.849571e-04
+  B: target_reached C: time_or_frequency_limit
+XII      0.7200059105    4.261948e-05     0.0803423917    5.285931e-04
+  B: target_reached C: time_or_frequency_limit
+ZXY      0.1449812973    7.900827e-05     0.0149890633    1.135325e-04
+  B: target_reached C: time_or_frequency_limit
+Wrote results_detuned_hierarchical.json

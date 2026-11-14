@@ -1,0 +1,14 @@
+
+Z: T=24.588399, scale=1.000000, K=64, (r_in,r_out,a_in,a_out)=(0.761087,2.419277,1.358583,0.470000)
+  QSP degree= 9, attempt=1, grid error=5.903e-05
+Frequency design (Z): r_in=0.7610871928000976, r_out=2.419276569403148, T_omega=24.588399460180774, K=64, qsp_degree=9, epsilon_corr=0.009088117248786049, epsilon_omega=0.09839097389486455
+support = ['X', 'Z']
+Bell shots per window = 10000000
+Bell windows = 35
+Total Bell shots = 350000000
+Theoretical Bell budget met = False
+A = 0.8 +/- 6.36657393471296e-13
+omega = 9.73046875 +/- 0.09839097389486455
+B = 0.3000240903662182 +/- 3.888016434744346e-05 status = target_reached
+C = 0.10001814686215485 +/- 0.000330031727839436 status = time_or_frequency_limit
+Wrote results.json

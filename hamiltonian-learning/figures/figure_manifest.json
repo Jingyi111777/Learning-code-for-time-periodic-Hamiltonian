@@ -1,0 +1,49 @@
+{
+  "code_version": "2026.11.14-f05.3",
+  "input_mode": "archived",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "pillow": "13.0.0",
+    "font": "Liberation Serif"
+  },
+  "figures": {
+    "single_qubit_coefficient_bars.png": {
+      "sha256": "af1adfc0030fc56c74960c48f41f3c5b8345104ff21e967fb589ba3fc0dede80",
+      "inputs": [
+        {
+          "path": "1- qubit/results.json",
+          "sha256": "865c6f818d0df8f98542ad5549e7d4ced21cdd922a31f1adaeb58a7c3d270f9d"
+        }
+      ]
+    },
+    "three_qubit_frequency_bars.png": {
+      "sha256": "1cb3a5de54525d8dd5838dcd42eee0040c5ccd21fc3c0aff6e8a7939b98626b9",
+      "inputs": [
+        {
+          "path": "3-qubits/results_detuned.json",
+          "sha256": "a23729281157dceaf545729057f1c481519f91b1efff2f90bdbd8c991457ecbf"
+        }
+      ]
+    },
+    "three_qubit_coefficient_bars.png": {
+      "sha256": "bcd46e0a5ebbe068160055cead3bf3e9764d81a100f87ade63827052e30aa754",
+      "inputs": [
+        {
+          "path": "3-qubits/results_detuned.json",
+          "sha256": "a23729281157dceaf545729057f1c481519f91b1efff2f90bdbd8c991457ecbf"
+        },
+        {
+          "path": "3-qubits/results_detuned_1e9.json",
+          "sha256": "96dab974d48efad6674dba5d9da3a44664e914144b09970648ea87b9899b8b02"
+        },
+        {
+          "path": "3-qubits/results_detuned_1e10.json",
+          "sha256": "ab343a23a6ca763e8bcd18887926fdd634c49ca0eb53330ac1221ea5f0d9bb40"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+The baseline uses a single support-recovery pass with an empty initial
+support. We also run hierarchical support recovery on the same
+three-qubit Hamiltonian, with thresholds \(a_j=0.60,0.30,0.10\) and
+\(a_{min}=0.10\) in the final round. We verify each Bell-proposed
+candidate on independent Bell samples using the short-time bound for
+absent labels. In the first two rounds, a verified candidate enters the
+support when its preliminary lower bound on
+\(\max(\lvert B_s\rvert,\lvert C_s\rvert)\) reaches \(a_j\).
+The final round uses the \(a_{min}\) Bell design and admits all
+independently verified candidates. After each support update, we
+estimate the coefficients and frequencies under ideal control and use
+these estimates to compensate the next round.
+
+The three rounds add \(\mathrm{XII}\), \(\mathrm{IXX}\), and
+\(\mathrm{ZXY}\), respectively. Each round uses 35 proposal windows and
+35 verification windows, with \(10^{10}\) Bell shots per window, for a
+total of \(2.10\times10^{12}\) Bell samples. Using exact Ramsey
+expectation values, all 50 Monte Carlo runs recover the full support
+with the same order of additions.
